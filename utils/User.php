@@ -28,7 +28,7 @@ class User
 
     public function displayUser(): void
     {
-        echo "Username: " . $this->username . "\n";
-        echo "Email: " . $this->email . "\n";
+        echo "Username: " . $this->username . "<br>";
+        echo "Email: " . $this->email . "<br>";
     }
 }
